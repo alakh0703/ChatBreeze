@@ -1,0 +1,264 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+
+    padding: 0;
+  }
+  .heading {
+    margin-left: 30px;
+  }
+  .navigation {
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  /* Basic styling for the landing page */
+  .landing {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  .hero img {
+    max-width: 40%;
+    height: auto;
+    margin-left: 10%;
+  }
+  
+  .hero-content {
+    max-width: 40%;
+    margin-right: 10%;
+  }
+  
+  .hero h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  .start-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .feature {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .social-links a {
+    color: #007BFF;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 768px)
+  {
+  
+   /* Reset some default styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Different color scheme for the landing page */
+.landing {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #222; /* Dark gray header background */
+  color: #fff; /* White text color */
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff; /* White navigation links */
+}
+
+main {
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero img {
+  max-width: 100%; /* Image should resize proportionally */
+  height: auto;
+  margin-bottom: 20px; /* Add space below the image */
+}
+
+.hero-content {
+  max-width: 100%; /* Allow content to take full width on smaller screens */
+  flex: 1; /* Take up available space */
+  margin-right: 0; /* Remove right margin on smaller screens */
+  text-align: center; /* Center text on smaller screens */
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #007BFF; /* Blue heading color */
+}
+
+.start-button {
+  background-color: #007BFF; /* Blue button background */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap; /* Allow features to wrap on smaller screens */
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.feature {
+  flex: 1; /* Take up available space */
+  padding: 10px;
+  text-align: center;
+}
+
+.feature h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #222; /* Dark gray footer background */
+  color: #fff; /* White text color */
+  text-align: center;
+  padding: 20px 0;
+}
+
+.social-links a {
+  color: #007BFF; /* Blue social link color */
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  header {
+    padding: 10px 0; /* Reduce top and bottom padding */
+  }
+
+  header h1 {
+    font-size: 28px; /* Reduce font size */
+  }
+
+  nav ul li {
+    margin-right: 10px; /* Reduce margin between navigation items */
+  }
+
+  .hero {
+    flex-direction: column; /* Stack content vertically on smaller screens */
+    text-align: center; /* Center align content */
+  }
+
+  .hero-content {
+    max-width: 100%; /* Take full width on smaller screens */
+  }
+
+  .hero img {
+    max-width: 80%; /* Reduce image size on smaller screens */
+    margin-bottom: 10px; /* Reduce space below the image */
+  }
+
+  .start-button {
+    margin-top: 10px; /* Reduce top margin on the button */
+  }
+
+  .features {
+    flex-direction: column; /* Stack features vertically on smaller screens */
+    text-align: center; /* Center align features */
+  }
+}
+
+   
+ }
